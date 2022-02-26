@@ -5,7 +5,7 @@ public class Zero implements One,Two{
     }
 
     @Override
-    void methodB() {
+    public void methodB() {
 
     }
 
