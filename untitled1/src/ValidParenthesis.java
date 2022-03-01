@@ -2,6 +2,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Stack;
+import java.util.Vector;
 
 public class ValidParenthesis {
     // Implement your solution here
@@ -37,5 +38,16 @@ public class ValidParenthesis {
         String parenthesis = in.readLine();
         String result = new ValidParenthesis().isValid(parenthesis);
         System.out.print(String.valueOf(result));
+
+        Vector<Integer> vector = new Vector<>();
+        Stack<Integer> stk = new Stack<>();
+       Vector[] obj = new Vector[2];
+       obj[1]= vector;
+       obj[2]= stk;
+        checkMethod(new Stack<Integer>());
+    }
+
+    static void checkMethod(Vector<Integer> h){
+        System.out.println("i do nothing");
     }
 }

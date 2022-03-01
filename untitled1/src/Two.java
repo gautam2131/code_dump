@@ -1,4 +1,5 @@
 public interface Two {
+
      int x = 10;
      private void method(){
          System.out.println("private method");
