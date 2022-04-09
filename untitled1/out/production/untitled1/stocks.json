@@ -1,0 +1,12 @@
+[
+  {
+    "symbol": "AAPL",
+    "purchaseDate": "2019-01-02",
+    "quantity": 100
+  },
+  {
+    "quantity": 10,
+    "purchaseDate": "2019-01-02",
+    "symbol": "MSFT"
+  }
+]
